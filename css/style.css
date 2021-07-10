@@ -1,0 +1,199 @@
+/* CSS */
+* {margin: 0; padding: 0;}
+html
+{
+	background-image: url(../img/wheat.png);
+	color: gold;
+	margin: 10px;
+}
+
+ul
+{
+	text-align: center;
+}
+ul li, ul li a
+{
+	display: inline-block;
+	background-color: maroon;
+	border-radius: 10px;
+	color: gold;
+	text-decoration: none;
+	padding: 25px;
+	margin: 20px;
+	font-size: 40px;
+}
+
+h1
+{
+	margin: auto;
+	text-align: center;
+}
+
+p
+{
+	text-align: center;
+	padding: 10px;
+	font-size: 25px;
+}
+
+div.order
+{
+
+}
+
+div.pizzaPic
+{	
+	background-image: url(../img/food.png);
+	text-align: center;
+	border-radius: 70%;;
+}
+
+div.pizzaSize
+{
+	text-align: center;
+	font-size: 20px;
+}
+
+div.pizzaSize header
+{
+	position: relative;
+	width: 400px;
+	border: 5px dashed maroon;
+	font-size: 40px;
+	text-align: center;
+	margin: 30px auto;
+	
+}
+
+
+div.toppings
+{	
+	position: relative;
+	margin: auto;
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+}
+
+div.checkboxes
+{
+	position: relative;
+	left: 310px;
+}
+
+div.toppings header
+{
+	padding: 40px;
+	font-size: 40px;
+}
+
+div.pepperoniCheck
+{
+	float: left;
+	position: relative;
+	width: 200px;
+	height: 100px;
+}
+
+div.mushroomCheck
+{
+	float: left;
+	position: relative;
+	width: 200px;
+	height: 100px;
+}
+
+div.onionCheck
+{
+	float: left;
+	position: relative;
+	width: 200px;
+	height: 100px;
+}
+
+div.sausageCheck
+{
+	float: left;
+	position: relative;
+	width: 200px;
+	height: 100px;
+}
+
+div.baconCheck
+{
+	float: left;
+	position: relative;
+	width: 200px;
+	height: 100px;
+}
+
+div.olivesCheck
+{
+	float: left;
+	position: relative;
+	width: 200px;
+	height: 100px;
+}
+
+div.greenPepperCheck
+{
+	float: left;
+	position: relative;
+	width: 200px;
+	height: 100px;
+}
+
+div.redPepperCheck
+{
+	float: left;
+	position: relative;
+	width: 200px;
+	height: 100px;
+}
+
+div.krust
+{
+	position: absolute;
+	left: 933px;
+	top: 940px;
+	float: none;
+	font-size: 40px;
+	text-align: center;
+	margin: auto 10px;
+}
+
+div.info
+{
+	position: absolute;
+	left: 870px;
+	top: 1070px;
+	margin: auto;
+	text-align: center;
+	padding: 40px;
+}
+
+div.contactInfo
+{
+	position: absolute;
+	left: 870px;
+	top: 645px;
+	margin: auto;
+	text-align: center;
+	padding: 40px;
+}
+
+div.aboutPic
+{
+	text-align: center;
+}
+
+div.contactPic
+{
+	text-align: center;
+}
+
+div.homePic
+{
+	position: relative;
+	left: 150px;
+}

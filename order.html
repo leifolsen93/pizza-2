@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Order Leif's Pizzeria</title>
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+  </head>
+	<div class="order">	
+	  <body>
+		<h1>Order from Leif's Pizzeria</h1>
+		<ul>
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="about.html">About</a></li>
+		  <li><a href="contact.html">Contact</a></li>
+		  <li><a href="order.html">Order</a></li>
+		</ul>
+		<div class="pizzaPic">
+			<img src="img/pizza2.jpg">
+		</div>
+		<form method="post" action="https://www.stonecoldprofessor.com/pizza-order.php" method="post">
+			<div class="pizzaSize">
+				<header>What size do you want?</header>
+				<p><input name="size" value="Small" type="radio">S
+				<input name="size" value="Medium" type="radio">M
+				<input name="size" value="Large" type="radio">L
+				<input name="size" value="Extra Large" type="radio">XL</p>
+			</div>
+			<div class="toppings">
+				<header>Choose your toppings!</header>
+				<div class="checkboxes">
+					<div class="pepperoniCheck">	
+						<img src="img/pepperoni.jpg" width="100" height="100">
+						<br>
+						<input name="toppings[]" value="pepperoni" type="checkbox">Pepperoni
+					</div>
+					<div class="mushroomCheck">	
+						<img src="img/mushroom.jpg" width="100" height="100">
+						<br>
+						<input name="toppings[]" value="mushrooms" type="checkbox">Mushrooms
+					</div>
+					<div class="onionCheck">
+						<img src="img/onion.jpg" width="100" height="100">
+						<br>
+						<input name="toppings[]" value="onions" type="checkbox">Onions
+					</div>
+					<div class="sausageCheck">
+						<img src="img/sausage.jpg" width="100" height="100">
+						<br>
+						<input name="toppings[]" value="sausage" type="checkbox">Sausage
+					</div>
+					<div class="baconCheck">
+						<img src="img/bacon.jpg" width="100" height="100">
+						<br>
+						<input name="toppings[]" value="bacon" type="checkbox">Bacon
+					</div>
+					<div class="olivesCheck">
+						<img src="img/olives.jpg" width="100" height="100">
+						<br>
+						<input name="toppings[]" value="black Olives" type="checkbox">Black Olives
+					</div>
+					<div class="greenPepperCheck">
+						<img src="img/greenPeppers.jpg" width="100" height="100">
+						<br>
+						<input name="toppings[]" value="green Peppers" type="checkbox">Green Peppers
+					</div>
+					<div class="redPepperCheck">
+						<img src="img/redPeppers.jpg" width="100" height="100">
+						<br>
+						<input name="toppings[]" value="red Peppers" type="checkbox">Red Peppers
+					</div>
+				</div>
+			</div>
+			<div class="krust">
+				<header>What crust can we get you?</header>
+				<select name="crust">
+					<option value="Thin">Thin
+					<option value="Thick">Thick
+					<option value="Dairy">Cheese Filled
+				</select>
+			</div>
+			<br>
+			<div class="info">
+			  <p><input name="first" placeholder="First Name" type="text" required>
+			  <input name="last" placeholder="Last Name" type="text" required>
+			  <input name="phone" placeholder="Phone Number" type="text" required></p>
+			  <br>
+			  <p><input name="add1" placeholder="Address Line 1" type="text" required>
+			  <input name="city" placeholder="City" type="text" required></p>
+			  <br>
+			  <p><select name="state" required>
+				<option value="null">State or Territory
+				<option value="Alabama">(AL) Alabama
+				<option value="Alaska">(AK) Alaska
+				<option value="American Samoa">(AS) American Samoa
+				<option value="Arizona">(AZ) Arizona
+				<option value="Arkansas">(AR) Arkansas
+				<option value="California">(CA) California
+				<option value="Colorado">(CO) Colorado
+				<option value="Connecticut">(CT) Connecticut
+				<option value="Delaware">(DE) Delaware
+				<option value="District of Columbia">(DC) District of Columbia
+				<option value="Florida">(FL) Florida
+				<option value="Georgia">(GA) Georgia
+				<option value="Guam">(GU) Guam
+				<option value="Hawaii">(HI) Hawaii
+				<option value="Idaho">(ID) Idaho
+				<option value="Illinois">(IL) Illinois
+				<option value="Indiana">(IN) Indiana
+				<option value="Iowa">(IA) Iowa
+				<option value="Kansas">(KS) Kansas
+				<option value="Kentucky">(KY) Kentucky
+				<option value="Louisiana">(LA) Louisiana
+				<option value="Maine">(ME) Maine
+				<option value="Maryland">(MD) Maryland
+				<option value="Massachusetts">(MA) Massachusetts
+				<option value="Michigan">(MI) Michigan
+				<option value="Minnesota">(MN) Minnesota
+				<option value="Mississippi">(MS) Mississippi
+				<option value="Missouri">(MO) Missouri
+				<option value="Montana">(MT) Montana
+				<option value="Nebraska">(NE) Nebraska
+				<option value="Nevada">(NV) Nevada
+				<option value="New Hampshire">(NH) New Hampshire
+				<option value="New Jersey">(NJ) New Jersey
+				<option value="New Mexico">(NM) New Mexico
+				<option value="New York">(NY) New York
+				<option value="North Carolina">(NC) North Carolina
+				<option value="North Dakota">(ND) North Dakota
+				<option value="Northern Mariana IS">MP Northern Mariana IS
+				<option value="Ohio">(OH) Ohio
+				<option value="Oklahoma">(OK) Oklahoma
+				<option value="Oregon">(OR) Oregon
+				<option value="Pennsylvania">(PA) Pennsylvania
+				<option value="Puerto Rico">(PR) Puerto Rico
+				<option value="Rhode Island">(RI) Rhode Island
+				<option value="South Carolina">(SC) South Carolina
+				<option value="South Dakota">(SD) South Dakota
+				<option value="Tennessee">(TN) Tennessee
+				<option value="Texas">(TX) Texas
+				<option value="Utah">(UT) Utah
+				<option value="Vermont">(VT) Vermont
+				<option value="Virginia">(VA) Virginia
+				<option value="Virgin Islands">(VI) Virgin Islands
+				<option value="Washington">(WA) Washington
+				<option value="West Virginia">(WV) West Virginia
+				<option value="Wisconsin">(WI) Wisconsin
+				<option value="Wyoming">(WY) Wyoming
+			  </select>
+			  <input name="zip" placeholder="Zipcode" type="text" required>
+			  <input name="email"placeholder="Email Address" type="text" required></p>
+			  <br>
+			  <p><textarea name="comments" placeholder="Special Intructions"></textarea></p>
+			  <input type="reset" value="Clear">
+			  <input type="submit" value="Send">
+			</div>
+		</form>
+	  </body>
+	</div>  
+</html>
